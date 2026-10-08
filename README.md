@@ -1,4 +1,4 @@
-# DemandOne v2 — dating app outside, stock market inside
+# DemandOne v2 
 
 A second prototype built on the same base as `DemandOne/` (Expo SDK 57, Expo Router, React 19,
 TypeScript), reworking the product around three ideas:
