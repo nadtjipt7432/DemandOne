@@ -3,6 +3,7 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
 import * as SplashScreen from 'expo-splash-screen';
+import { AgentFab } from '@/components/AgentFab';
 import { useAppState } from '@/data/hooks';
 import { colors } from '@/theme';
 
@@ -32,6 +33,7 @@ export default function RootLayout() {
         <Stack.Screen name="(tabs)" />
         <Stack.Screen name="agent" options={{ presentation: 'modal', animation: 'slide_from_bottom' }} />
       </Stack>
+      <AgentFab />
     </>
   );
 }
